@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+}
+
+a .fas {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.icon {
+    font-size: 35px;
+}
+
+.icon i {
+    margin-left: 10px;
+}
+
+.card {
+    margin-top: 100px;
+    max-width: 650px;
+}
+
+@media(min-width:764px) {
+    .image img {
+        border-radius: 50%;
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+    .card-body {
+        margin-left: 50px;
+    }
+}
